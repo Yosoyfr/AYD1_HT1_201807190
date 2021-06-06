@@ -13,3 +13,7 @@ Hoja de trabajo 1 del curso Análisis y Diseño de Sistemas 1
 |  <a href="https://github.com/Yosoyfr" target="_blank">`github.com/Yosoyfr`</a>  |
 | <a href="https://twitter.com/yosoyfr" target="_blank">`twitter.com/yosoyfr`</a> |
 |                           Grupo: Telepizza Team Queso                           |
+
+
+CALIFICADO :heavy_check_mark: :v:
+===============
