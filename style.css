@@ -61,7 +61,8 @@ h4 {
 
 .profile .name-wrapper {
   float: left;
-  width: 50%;
+  width: 40%;
+  margin-left: 15px;
 }
 
 .profile h1 {
@@ -71,7 +72,7 @@ h4 {
   color: #4a4e51;
   text-transform: uppercase;
   line-height: 1em;
-  padding-top: 40px;
+  margin-top: 55px;
   margin-bottom: 10px;
 }
 
@@ -84,25 +85,27 @@ h4 {
 @media (max-width: 1200px) {
   .profile h1 {
     padding-top: 0px;
+    margin-top: 0;
   }
 }
 
 @media (max-width: 850px) {
   .profile h1 {
-    padding-top: 20px;
+    margin-top: 45px;
   }
 }
 
 @media (max-width: 570px) {
   .profile h1 {
     padding-top: 0;
+    margin-top: 0;
   }
 }
 
 @media (max-width: 450px) {
   .profile h1 {
-    font-size: 1.8em;
-    padding-top: 30px;
+    font-size: 2em;
+    margin-top: 55px;
   }
 }
 
@@ -160,16 +163,13 @@ h4 {
   border-radius: 50%;
   width: 130px;
 }
-@media (max-width: 1500px) {
-  .profile .picture-resume img {
-    width: 80px;
-  }
-}
+
 @media (max-width: 1200px) {
   .profile .picture-resume img {
     width: 90px;
   }
 }
+
 @media (max-width: 1500px) {
   .profile .picture-resume {
     width: 150px;
@@ -209,6 +209,15 @@ h4 {
   width: 40%;
   color: #4a4e51;
 }
+
+.profile .list-skills {
+  float: left;
+  text-align: left;
+  font-weight: 600;
+  color: #4a4e51;
+  line-height: 0.8em;
+}
+
 .profile .list-content {
   float: left;
   width: 60%;
@@ -252,6 +261,7 @@ h4 {
   font-weight: 300;
   min-height: 100%;
   min-height: 100vh;
+  margin-bottom: 10px;
 }
 @media (max-width: 850px) {
   .experience {
